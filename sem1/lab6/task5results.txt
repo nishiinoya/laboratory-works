@@ -1,0 +1,3 @@
+minimum: 20.223000
+maximum: 94.257000
+sum of min and max: 114.480000
