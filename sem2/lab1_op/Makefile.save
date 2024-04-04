@@ -1,0 +1,18 @@
+qEXECUTABLE := main
+
+.PHONY: clean
+
+all:
+	mkdir -p ./obj
+	gcc  -c ./*.c
+	mv ./*.o ./obj
+	gcc  -o $(EXECUTABLE) ./obj/*.o
+
+uninstall:
+	rm -rf ./obj
+	rm -rf $(EXECUTABLE)
+
+clean:
+	rm -rf ./obj
+
+reinstall: uninstall all

@@ -13,9 +13,9 @@ int main() {
     double step = 0.1;
 
     double min_derivative1 = min_deriv(function1, start, end, step);
-    std::cout << "Minimum value of the first derivative: " << min_derivative1 << std::endl;
+    std::cout << "Minimum value of the first derivative sin: " << min_derivative1 << std::endl;
     double min_derivative2 = min_deriv(function2, start, end, step);
-    std::cout << "Minimum value of the first derivative: " << min_derivative2 << std::endl;
+    std::cout << "Minimum value of the first derivative x square: " << min_derivative2 << std::endl;
     // The minimum value of the derivative of sin is - 1.
     // The minimum value of the derivative of x square is - 20.
     return 0;
