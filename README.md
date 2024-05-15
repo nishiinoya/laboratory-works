@@ -1,1 +1,1 @@
-# laboratory works from 1st semester in NTU "KhPI"
+# laboratory works NTU "KhPI" Computer Science
