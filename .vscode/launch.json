@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/olmalanchuk/Campus/laboratoratory-works/sem2/fp/lab2_fp",
+      "program": "/Users/olmalanchuk/Campus/laboratoratory-works/sem2/fp/lab2_fp/build/Debug/outDebug"
+    }
+  ]
+}
